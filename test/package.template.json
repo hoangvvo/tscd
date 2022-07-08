@@ -1,0 +1,14 @@
+{
+  "name": "awesomemodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tscd --entry index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tscd": "file:.."
+  }
+}
