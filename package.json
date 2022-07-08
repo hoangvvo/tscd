@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "tscd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tsc but for building TypeScript library with dual CJS/ESM output",
   "main": "lib/index.js",
   "bin": {
@@ -13,7 +13,9 @@
     "lint": "eslint ./lib",
     "format": "npx prettier . -w"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoangvvo/tscd.git"
