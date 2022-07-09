@@ -12,13 +12,13 @@ npm i tscd
 
 ## Usage
 
-Call `tscd` with the same args as `tsc`, with an addition of `entry` (defaulted to `index.js`) arg which is the entrypoint (with extension) with respect to `outDir`.
+Call `tscd` with the same args as `tsc`, with an addition of `entry` (defaulted to `index.js`) arg which is the entrypoint (with extension) with respect to `outDir`. Every options are passed to `tsc`.
 
 ```sh
 tscd --entry index.js --outDir dist
 ```
 
-The script will update `package.json` with fields like below:
+The command will build CJS and ESM versions of the library in two directories and also emitting the types. It will also update `package.json` with fields like below automatically:
 
 ```json
 {
