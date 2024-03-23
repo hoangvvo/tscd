@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "tscd",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "tsc but for building TypeScript library with dual CJS/ESM output",
   "main": "lib/index.js",
   "bin": {
@@ -42,14 +42,14 @@
     "typescript": ">=4.7.0"
   },
   "dependencies": {
-    "dot-prop": "^7.2.0",
-    "glob": "^8.0.3",
+    "dot-prop": "^8.0.2",
+    "glob": "^10.3.10",
     "kleur": "^4.1.5",
     "load-json-file": "^7.0.1",
-    "minimist": "^1.2.6",
+    "minimist": "^1.2.8",
     "write-json-file": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.19.0"
+    "eslint": "^8.57.0"
   }
 }
