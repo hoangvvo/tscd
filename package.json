@@ -5,7 +5,7 @@
   "description": "tsc but for building TypeScript library with dual CJS/ESM output",
   "main": "lib/index.js",
   "bin": {
-    "tscd": "./lib/index.js"
+    "tscd": "lib/index.js"
   },
   "scripts": {
     "prepublishOnly": "npm run test",
