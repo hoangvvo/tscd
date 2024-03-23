@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "tscd",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "tsc but for building TypeScript library with dual CJS/ESM output",
   "main": "lib/index.js",
   "bin": {
